@@ -27,6 +27,7 @@ dependencies:
   - esmvalcore 2.9.*
   - fiona
   - fire
+  - fsspec
   - gdal
   - iris >=3.6.0
   - iris-esmf-regrid >=0.7.0
@@ -49,6 +50,7 @@ dependencies:
   - psy-reg
   - psy-simple
   - pyproj >=2.1
+  - pys2index
   - python-cdo
   - python-dateutil
   - pyyaml

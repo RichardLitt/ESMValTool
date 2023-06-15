@@ -26,6 +26,7 @@ dependencies:
   - esmpy
   - esmvalcore 2.9.*
   - fiona
+  - fsspec
   - fire
   - gdal
   - iris >=3.6.0
@@ -51,6 +52,7 @@ dependencies:
   - pyproj>=2.1
   - python-cdo
   - python-dateutil
+  - pys2index
   - pyyaml
   - rasterio
   - requests
