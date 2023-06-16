@@ -50,7 +50,9 @@ REQUIREMENTS = {
         'openpyxl',
         'pandas',
         'pyproj>=2.1',
-        'pys2index',
+        # pys2index is currently *only* on Conda-forge, cf
+        # https://github.com/benbovy/pys2index/issues/6
+        # 'pys2index',
         'pyyaml',
         'progressbar2',
         'psyplot',
