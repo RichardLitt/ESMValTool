@@ -302,8 +302,4 @@ def cmorization(in_dir, out_dir, cfg, cfg_user, start_date, end_date):
             out_dir,
             attrs,
             unlimited_dimensions=['time'],
-            chunksizes=(100, 1, 10),
-            zlib=True,
-            complevel=4,
-            fill_value=1.e20,
         )
